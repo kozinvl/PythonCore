@@ -54,7 +54,7 @@ def main():
         change_lines = new_parser.preparing_replace(sys.argv[2], sys.argv[3])
         new_parser.replace_text(change_lines)
     else:
-        print("Invalid data has been entered")
+        print("Invalid data has been entered!")
 
 
 if __name__ == '__main__':
